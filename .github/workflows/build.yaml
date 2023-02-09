@@ -15,8 +15,6 @@ jobs:
         node-version: 16.x
     - run: npm ci
     - run: npm test
-
-jobs:
   build:
     name: Build and Deploy
     needs: test
